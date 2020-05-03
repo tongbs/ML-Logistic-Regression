@@ -155,6 +155,3 @@ if  __name__ == "__main__":
     draw_confusion_matrix(data_X, data_Y, weight)
     nt0_x, nt0_y, nt1_x, nt1_y = netwon_data(data_X,weight)
     draw_result(D1,D2,gt0_x,gt0_y,gt1_x,gt1_y,nt0_x,nt0_y,nt1_x,nt1_y)
-
-        
-
